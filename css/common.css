@@ -619,47 +619,19 @@ table {
 }
 
 /* Literal.Number.Integer.Long */
-/* line 4, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
-html {
-  height: 100%;
-}
-
-/* line 7, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-/* line 11, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
-.title {
-  margin: 100px 0;
-  text-align: center;
-}
-/* line 17, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
-.title h1 {
-  font-size: 50px;
-}
-/* line 20, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
-.title h2 {
-  margin-left: 2px;
-}
-
-/* line 23, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
-html {
+/* line 1, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/type/_defaults.sass */
+body {
   font-family: "adelle";
-  font-weight: 300;
-  font-size: 18px;
 }
 
-/* line 28, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
+/* line 4, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/type/_defaults.sass */
 h1 {
-  font-style: italic;
   font-weight: 400;
-  margin: 0;
   letter-spacing: -1px;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* line 34, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
+/* line 9, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/type/_defaults.sass */
 h2 {
   font-family: "adelle-sans", sans-serif;
   font-size: 16px;
@@ -670,23 +642,79 @@ h2 {
   letter-spacing: 1px;
 }
 
-/* line 46, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
+/* line 18, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/type/_defaults.sass */
 a {
-  color: #222222;
-  text-decoration: none;
+  color: #1f77b5;
 }
 
-/* line 50, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
+/* line 21, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/type/_defaults.sass */
 img {
   max-width: 100%;
 }
 
-/* line 53, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
-.posts {
-  margin: 0;
+/* line 1, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_main.sass */
+* {
+  position: relative;
 }
-/* line 56, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/_base.sass */
-.posts li {
+
+/* line 4, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_main.sass */
+html {
+  height: 100%;
+}
+
+/* line 7, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_main.sass */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* line 1, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_home.sass */
+.avatar {
+  max-width: 190px;
+  margin: 30px auto;
+}
+
+/* line 5, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_home.sass */
+.title {
+  text-align: center;
+  font-size: 46px;
+  margin: 44px 0;
+}
+
+/* line 10, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_home.sass */
+.bio {
+  font-size: 24px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 15, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_home.sass */
+.socialLinks {
+  display: table;
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+/* line 21, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_home.sass */
+.socialLinks ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 25, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_home.sass */
+.socialLinks li {
+  display: inline-block;
+  width: 95px;
+  text-align: center;
   list-style: none;
-  border-bottom: 1px solid #cccccc;
+}
+/* line 31, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_home.sass */
+.socialLinks li::before {
+  content: "•";
+  position: absolute;
+  left: -7px;
+}
+/* line 36, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_home.sass */
+.socialLinks li:first-child::before {
+  content: "";
 }
