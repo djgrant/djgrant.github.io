@@ -626,7 +626,8 @@ body {
 
 /* line 4, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/type/_defaults.sass */
 h1 {
-  font-weight: 400;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
 }
@@ -684,7 +685,7 @@ html {
 
 /* line 10, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_home.sass */
 .bio {
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   -webkit-font-smoothing: antialiased;
 }
