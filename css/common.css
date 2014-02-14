@@ -692,6 +692,7 @@ img {
   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;*/
   font-size: 20px;
+  line-height: 24px;
   text-align: center;
   -webkit-font-smoothing: antialiased;
 }
