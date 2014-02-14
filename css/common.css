@@ -689,8 +689,8 @@ img {
 
 /* line 10, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_home.sass */
 .bio {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
+  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;*/
   font-size: 20px;
   text-align: center;
   -webkit-font-smoothing: antialiased;
