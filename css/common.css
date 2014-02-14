@@ -673,6 +673,11 @@ html {
 .avatar {
   max-width: 190px;
   margin: 30px auto 42px;
+
+}
+
+img {
+  border-radius: 190px;
 }
 
 /* line 5, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/views/_home.sass */
