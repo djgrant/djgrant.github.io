@@ -645,6 +645,7 @@ h2 {
 /* line 18, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/type/_defaults.sass */
 a {
   color: #1f77b5;
+  text-decoration: none;
 }
 
 /* line 21, /Users/daniel/.dropbox-two/Dropbox/Sites/danielgrant.im/sass/base/type/_defaults.sass */
